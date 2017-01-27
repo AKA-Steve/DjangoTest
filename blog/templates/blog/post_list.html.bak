@@ -1,0 +1,7 @@
+<div>
+  <h1><a href="/">Django Test Blog</a></h1>
+</h1>
+
+{% for post in posts %}
+  {{ post }}
+{% endfor %}
